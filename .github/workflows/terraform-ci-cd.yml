@@ -35,7 +35,6 @@ jobs:
   terraform-Plan-Apply:
     name: Terraform Apply
     runs-on: ubuntu-latest
-    needs: terraform-plan
 
     steps:
       - name: Checkout code
