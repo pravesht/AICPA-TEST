@@ -33,7 +33,7 @@ jobs:
         working-directory: terraform
 
   terraform-Plan-Apply:
-    name: Terraform Apply
+    name: Terraform Plan & Apply
     runs-on: ubuntu-latest
 
     steps:
